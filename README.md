@@ -29,7 +29,7 @@ $conda create -n env BayeshERG -c conda-forge rdkit python=3.6
 ```
 ### Activate the virtual environment
 ```
-$conda activate BayeshERG
+$ conda activate BayeshERG
 ```
 
 ### Install dependencies
@@ -37,18 +37,25 @@ $conda activate BayeshERG
 Excute the installation shell script    
     
 ```
-$sh install.sh
+$ sh install.sh
 ```
 Then, type the cuda version to the shell and press enter.
+
+```
+$ sh install.sh
+Input CUDA version of your GPU, ex. 10.2
+: 10.2 (Enter)
+DGL and Pytorch with CUDA v10.2 will be installed.
+```
   
 - If your system has no GPU, excute the cpu version dependencies.
 ```
-$sh cpu_install.sh
+$ sh cpu_install.sh
 ```
 
 ### Prediction
 ```
-usage: $python main.py  [-i] input_csv_file_path 
+usage: $ python main.py  [-i] input_csv_file_path 
                         [-o] output_file_name 
                         [-c] 'cpu' or 'gpu' (default 'cpu')
                         [-t] sampling time (integer, default 30)
@@ -57,11 +64,11 @@ usage: $python main.py  [-i] input_csv_file_path
 
 _With GPU_
 ```
-$python main.py -i data/External/EX1.csv -o EX1_pred -c gpu -t 30
+$ python main.py -i data/External/EX1.csv -o EX1_pred -c gpu -t 30
 ```
 _With CPU_
 ```
-$python main.py -i data/External/EX1.csv -o EX1_pred -c cpu -t 30
+$ python main.py -i data/External/EX1.csv -o EX1_pred -c cpu -t 30
 ```
 ### Output Format
 
