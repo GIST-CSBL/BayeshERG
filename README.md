@@ -1,5 +1,5 @@
 # BayeshERG : A Bayesian Graph Neural Network for predicting hERG blockers
-BayeshERG Official Repository. This repository contains the pytorch implementation of BayeshERG and trained weights to predict arbitrary compounds. 
+BayeshERG Official Repository. This repository contains the pytorch implementation of BayeshERG and trained model to predict arbitrary compounds. 
 The BayeshERG is developed with the python v3.6 and following packages:`dgl`, `pytorch`, and `rdkit`.
 
 
