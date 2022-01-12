@@ -59,8 +59,8 @@ $python main.py -i data/External/EX1.csv -o EX1_pred -c cpu -t 30
 ```
 ### Output Format
 
-The prediction results (Prediction score, Uncertainties) are appened to the input `.csv` file and saved to `prediction_results` directory.
+The prediction results (Prediction score, Uncertainties) are appened to the input `.csv` file and saved to `prediction_results` directory as `output_file_name.csv`.
 |  ID  |  smiles  |  score  |  alea  |  epis  |
 | -----|----------|---------|--------|--------|
 
-Also, the attention images(`.svg`) are also depicted and saved to `attention_results` directory.
+Also, the attention images(`.svg`) are also depicted and saved to `attention_results/output_file_name` directory.
