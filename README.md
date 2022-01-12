@@ -1,5 +1,5 @@
 # BayeshERG : A Bayesian Graph Neural Network for predicting hERG blockers
-- BayeshERG Official Repository
+BayeshERG Official Repository
 
 # Prerequsites
 - Anaconda
