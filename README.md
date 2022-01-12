@@ -9,7 +9,7 @@ To avoid the package version issue, we open our code with Anaconda virtual envir
 # Requirements
 ### Input Format 
 
-Any '.csv' file with 'smiles' column
+Any `.csv` file with `smiles` column
 
 (Example)
 |  ID  |  smiles |
@@ -18,7 +18,7 @@ Any '.csv' file with 'smiles' column
 
 ### Output Format
 
-The prediction results (Prediction score, Uncertainties) are appened to the input '.csv' file.
+The prediction results (Prediction score, Uncertainties) are appened to the input `.csv` file.
 |  ID  |  smiles  |  score  |  alea  |  epis  |
 | -----|----------|---------|--------|--------|
 
