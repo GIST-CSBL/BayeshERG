@@ -13,7 +13,7 @@ Any '.csv' file with 'smiles' column
 (Example)
 |  ID  |  smiles |
 | -----|---------|
-|  EX1 |         |
+
 
 -Output Format
 
