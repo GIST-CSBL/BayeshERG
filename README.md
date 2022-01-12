@@ -50,7 +50,7 @@ DGL and Pytorch with CUDA v10.2 will be installed.
 ...
 ```
   
-- If your system has no GPU, excute the cpu version install shell script `cpu_install.sh`.
+- If your system has no GPU, excute the cpu-version shell script `cpu_install.sh`.
 ```
 $ sh cpu_install.sh
 ```
