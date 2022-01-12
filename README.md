@@ -35,33 +35,32 @@ $conda activate BayeshERG
 ```
 
 ### Install dependencies
-  - If your system has GPU, check the CUDA version in advance (nvidia-smi).
-   + Excute the installation shell script    
+- If your system has GPU, check the CUDA version in advance (nvidia-smi).
+Excute the installation shell script    
     
 ```
 $sh install.sh
 ```
-   + Then, type the cuda version to the shell and press enter.
+Then, type the cuda version to the shell and press enter.
   
-  - If your system has no GPU, excute the cpu version dependencies.
+- If your system has no GPU, excute the cpu version dependencies.
 ```
 $sh cpu_install.sh
 ```
 
-* Prediction
+### Prediction
 ```
 usage: $python main.py [-i] input_csv_file_path 
                         [-o] output_file_name 
                         [-c] 'cpu' or 'gpu' (default 'cpu')
                         [-t] sampling time (integer, default 30)
 ```
-  - Example
-    + With GPU
+- Example
+_With GPU_
 ```
 $python main.py -i data/External/EX1.csv -o EX1_pred -c gpu -t 30
 ```
----
-    + With CPU
+_With CPU_
 ```
 $python main.py -i data/External/EX1.csv -o EX1_pred -c cpu -t 30
 ```
