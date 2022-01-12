@@ -67,5 +67,7 @@ Also, the attention images(`.svg`) are also depicted and saved to `attention_res
 
 # Contact
 hyunhokim@gm.gist.ac.kr
+
 15pms@gist.ac.kr
+
 hjnam@gist.ac.kr
