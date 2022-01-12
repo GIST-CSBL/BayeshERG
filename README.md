@@ -16,7 +16,7 @@ Any '.csv' file with 'smiles' column
 | -----|---------|
 
 
--Output Format
+- Output Format
 
 The prediction results (Prediction score, Uncertainties) are appened to the input '.csv' file.
 |  ID  |  smiles  |  score  |  alea  |  epis  |
