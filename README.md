@@ -83,4 +83,7 @@ hjnam@gist.ac.kr
 [2] Scalia, Gabriele, et al. "Evaluating scalable uncertainty estimation methods for deep learning-based molecular property prediction." Journal of chemical information and modeling 60.6 (2020): 2697-2717.
 
 [3] Yang, Kevin, et al. "Analyzing learned molecular representations for property prediction." Journal of chemical information and modeling 59.8 (2019): 3370-3388.
+
+
+---
 @ Last modified : 2022.01.12
