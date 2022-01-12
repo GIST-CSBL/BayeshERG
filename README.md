@@ -15,14 +15,6 @@ Any `.csv` file with `smiles` column.
 |  ID  |  smiles |
 | -----|---------|
 
-
-### Output Format
-
-The prediction results (Prediction score, Uncertainties) are appened to the input `.csv` file.
-|  ID  |  smiles  |  score  |  alea  |  epis  |
-| -----|----------|---------|--------|--------|
-
-
 # Usage
 ### Create conda virtual environment
 
@@ -65,4 +57,10 @@ _With CPU_
 ```
 $python main.py -i data/External/EX1.csv -o EX1_pred -c cpu -t 30
 ```
+### Output Format
 
+The prediction results (Prediction score, Uncertainties) are appened to the input `.csv` file and saved to `prediction_results` directory.
+|  ID  |  smiles  |  score  |  alea  |  epis  |
+| -----|----------|---------|--------|--------|
+
+Also, the attention images are also depicted and saved to `attention_results` directory.
