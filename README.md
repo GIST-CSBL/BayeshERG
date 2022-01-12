@@ -42,7 +42,7 @@ $sh cpu_install.sh
 
 ### Prediction
 ```
-usage: $python main.py [-i] input_csv_file_path 
+usage: $python main.py  [-i] input_csv_file_path 
                         [-o] output_file_name 
                         [-c] 'cpu' or 'gpu' (default 'cpu')
                         [-t] sampling time (integer, default 30)
