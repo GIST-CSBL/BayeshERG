@@ -41,6 +41,7 @@ $nvidia-smi
 ```
 ---
     + Excute the installation shell script    
+    
 ```
 $sh install.sh
 ```
