@@ -43,9 +43,8 @@ def collate(sample):
 
 def load_data(df, atom_featurizer, bond_featurizer):
     print("---------------- Target loading --------------------")
-    test_g = [smiles_to_bigraph(smi, node_featurizer=atom_featurizer, edge_featurizer=bond_featurizer) for smi in df['st_smiles']]
-    test_y = [x for x in df['label']]
-    test_data = list(zip(test_g, test_y))
+    test_g = [smiles_to_bigraph(smi, node_featurizer=atom_featurizer, edge_featurizer=bond_featurizer) for smi in df['smiles']]
+    test_data = list(test_g)
     print("---------------- Target loading complete --------------------")
     return test_data
 
@@ -80,8 +79,8 @@ def prediction(model, df, test_data, device, samples = 100):
             num_atom_list = []
             pred_att = []
 
-            for _, (bg, labels) in enumerate(test_loader):
-                labels = labels.to(device)
+            for _, bg in enumerate(test_loader):
+                
                 lengths = bg.batch_num_nodes
                 atom_feats = bg.ndata.pop('h').to(device)
                 bond_feats = bg.edata.pop('e').to(device)
@@ -126,7 +125,7 @@ def attention_visulaizer(name, df, mean_att, num_atom_list):
     c = 0
     for j, n_atoms in enumerate(num_atom_list):
         attention_coeff = mean_att[:, c:c + n_atoms]
-        mol = Chem.MolFromSmiles(df['st_smiles'].iloc[j])
+        mol = Chem.MolFromSmiles(df['smiles'].iloc[j])
         new_order = rdmolfiles.CanonicalRankAtoms(mol)
         mol = rdmolops.RenumberAtoms(mol, new_order)
         for l in range(8):

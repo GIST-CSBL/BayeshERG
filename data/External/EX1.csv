@@ -1,4 +1,4 @@
-id,st_smiles,label
+id,smiles,label
 Ex_1,CCOC(=O)C1(c2ccccc2)CCN(C)CC1,0
 Ex_2,CCN(CC)CC(=O)Nc1c(C)cccc1C,0
 Ex_3,CCCC(CCC)C(=O)O,0
