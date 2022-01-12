@@ -63,4 +63,4 @@ The prediction results (Prediction score, Uncertainties) are appened to the inpu
 |  ID  |  smiles  |  score  |  alea  |  epis  |
 | -----|----------|---------|--------|--------|
 
-Also, the attention images are also depicted and saved to `attention_results` directory.
+Also, the attention images(`.svg`) are also depicted and saved to `attention_results` directory.
