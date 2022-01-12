@@ -24,28 +24,24 @@ The prediction results (Prediction score, Uncertainties) are appened to the inpu
 
 
 # Usage
-* Create conda virtual environment
+### Create conda virtual environment
 
 ```
 $conda create -n env BayeshERG -c conda-forge rdkit python=3.6
 ```
-* Activate the virtual environment
+### Activate the virtual environment
 ```
 $conda activate BayeshERG
 ```
 
-* Install dependencies
-  - If your system has GPU, check the CUDA version in advance.
-```
-$nvidia-smi
-```
----
-    + Excute the installation shell script    
+### Install dependencies
+  - If your system has GPU, check the CUDA version in advance (nvidia-smi).
+   + Excute the installation shell script    
     
 ```
 $sh install.sh
 ```
-    + Then, type the cuda version to the shell and press enter.
+   + Then, type the cuda version to the shell and press enter.
   
   - If your system has no GPU, excute the cpu version dependencies.
 ```
