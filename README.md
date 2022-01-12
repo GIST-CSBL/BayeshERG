@@ -34,7 +34,7 @@ $ conda activate BayeshERG
 
 ### Install dependencies
 - If your system has GPU, check the CUDA version in advance (nvidia-smi).
-Excute the installation shell script    
+Excute the installation shell script `install.sh`    
     
 ```
 $ sh install.sh
@@ -50,7 +50,7 @@ DGL and Pytorch with CUDA v10.2 will be installed.
 ...
 ```
   
-- If your system has no GPU, excute the cpu version dependencies.
+- If your system has no GPU, excute the cpu version install shell script `cpu_install.sh`.
 ```
 $ sh cpu_install.sh
 ```
