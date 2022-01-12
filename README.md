@@ -56,6 +56,7 @@ usage: $python main.py [-i] input_csv_file_path
                         [-t] sampling time (integer, default 30)
 ```
 - Example
+
 _With GPU_
 ```
 $python main.py -i data/External/EX1.csv -o EX1_pred -c gpu -t 30
