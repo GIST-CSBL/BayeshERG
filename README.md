@@ -9,7 +9,7 @@ To avoid the package version issue, we open our code with Anaconda virtual envir
 # Requirements
 ### Input Format 
 
-Any `.csv` file with `smiles` column
+Any `.csv` file with `smiles` column.
 
 (Example)
 |  ID  |  smiles |
