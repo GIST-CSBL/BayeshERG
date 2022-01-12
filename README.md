@@ -39,7 +39,8 @@ $conda activate BayeshERG
 ```
 $nvidia-smi
 ```
-    + Excute the installation shell script
+---
+    + Excute the installation shell script    
 ```
 $sh install.sh
 ```
@@ -59,6 +60,7 @@ usage: $python main.py [-i] input_csv_file_path [-o] output_file_name [-c] 'cpu'
 ```
 $python main.py -i data/External/EX1.csv -o EX1_pred -c gpu -t 30
 ```
+---
     + With CPU
 ```
 $python main.py -i data/External/EX1.csv -o EX1_pred -c cpu -t 30
