@@ -25,7 +25,7 @@ Any `.csv` file with `smiles` column.
 ### Create conda virtual environment
 
 ```
-$conda create -n env BayeshERG -c conda-forge rdkit python=3.6
+$ conda create -n env BayeshERG -c conda-forge rdkit python=3.6
 ```
 ### Activate the virtual environment
 ```
@@ -76,7 +76,7 @@ $ python main.py -i data/External/EX1.csv -o EX1_pred -c cpu -t 30
 
 The prediction results (Prediction score, Uncertainties) are appened to the input `.csv` file and saved to `prediction_results` directory as `output_file_name.csv`.
 |  ID  |  smiles  |  score  |  alea  |  epis  |
-| -----|----------|---------|--------|--------|
+
 
 Also, the attention images(`.svg`) are also depicted and saved to `attention_results/output_file_name` directory.
 
