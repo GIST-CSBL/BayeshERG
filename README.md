@@ -11,6 +11,7 @@ The BayeshERG is developed with the python v3.6 and following packages:`dgl`, `p
 - Anaconda
 
 To avoid the package version issue, we open our code with Anaconda virtual environment. Therefore, the Anaconda should be installed in advance.
+https://www.anaconda.com/products/individual
 
 # Requirements
 ### Input Format 
