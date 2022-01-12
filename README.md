@@ -65,10 +65,10 @@ usage: $ python main.py [-i] input_csv_file_path
 - Example
 
 ```
-# With GPU
+// With GPU
 $ python main.py -i data/External/EX1.csv -o EX1_pred -c gpu -t 30
 
-# With CPU
+// With CPU
 $ python main.py -i data/External/EX1.csv -o EX1_pred -c cpu -t 30
 ```
 
