@@ -1,5 +1,6 @@
 # BayeshERG : A Bayesian Graph Neural Network for predicting hERG blockers
 BayeshERG Official Repository. This repository contains the pytorch implementation of BayeshERG and trained model to predict arbitrary compounds. 
+The implementation of BayehERG has referred to the official implementation of related studies [1-3].   
 The BayeshERG is developed with the python v3.6 and following packages:`dgl`, `pytorch`, and `rdkit`.
 
 
@@ -76,4 +77,10 @@ hyunhokim@gm.gist.ac.kr
 
 hjnam@gist.ac.kr
 
+# Reference
+[1] Gal, Yarin, Jiri Hron, and Alex Kendall. "Concrete dropout." arXiv preprint arXiv:1705.07832 (2017).
+
+[2] Scalia, Gabriele, et al. "Evaluating scalable uncertainty estimation methods for deep learning-based molecular property prediction." Journal of chemical information and modeling 60.6 (2020): 2697-2717.
+
+[3] Yang, Kevin, et al. "Analyzing learned molecular representations for property prediction." Journal of chemical information and modeling 59.8 (2019): 3370-3388.
 @ Last modified : 2022.01.12
