@@ -34,9 +34,9 @@ $ conda activate BayeshERG
 ```
 
 ### Install dependencies
-- If your system has GPU, check the CUDA version in advance (nvidia-smi).
+- If your system has GPU, check the CUDA version in advance (nvidia-smi). 
 
-Then, excute the installation shell script `install.sh`    
+Excute the installation shell script `install.sh`    
     
 ```
 $ sh install.sh
