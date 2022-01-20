@@ -26,7 +26,7 @@ Any `.csv` file with `smiles` column.
 ### Create conda virtual environment
 
 ```
-$ conda create -n env BayeshERG -c conda-forge rdkit python=3.6
+$ conda create -n BayeshERG -c conda-forge rdkit python=3.6
 ```
 ### Activate the virtual environment
 ```
