@@ -83,11 +83,11 @@ The prediction results (Prediction score, Uncertainties) are appened to the inpu
 Also, the attention images(`.svg`) are also depicted and saved to `attention_results/output_file_name` directory.
 
 # Contact
-hyunhokim@gm.gist.ac.kr
+Hyunho Kim, hyunhokim@gm.gist.ac.kr
 
-15pms@gist.ac.kr
+Minsu Park, 15pms@gist.ac.kr
 
-hjnam@gist.ac.kr
+Hojung Nam (Corresponding Author), hjnam@gist.ac.kr
 
 # Reference
 [1] Gal, Yarin, Jiri Hron, and Alex Kendall. "Concrete dropout." arXiv preprint arXiv:1705.07832 (2017).
