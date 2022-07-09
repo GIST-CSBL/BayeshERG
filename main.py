@@ -38,7 +38,7 @@ def collate(graphs):
     batched_graph = dgl.batch(graphs)
     batched_graph.set_n_initializer(dgl.init.zero_initializer)
     batched_graph.set_e_initializer(dgl.init.zero_initializer)
-    return batched_graph, torch.tensor(labels)
+    return batched_graph
 
 def load_data(df, atom_featurizer, bond_featurizer):
     print("---------------- Target loading --------------------")
