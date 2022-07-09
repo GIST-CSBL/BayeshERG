@@ -41,16 +41,6 @@ Excute the installation shell script `install.sh`
 ```
 $ sh install.sh
 ```
-Then, type the cuda version to the shell and press enter.
-
-```
-$ sh install.sh
-Input CUDA version of your GPU, ex. 10.2
-: 10.2 (Enter)
-DGL and Pytorch with CUDA v10.2 will be installed.
-...
-...
-```
   
 If your system has no GPU, excute the cpu-version shell script `cpu_install.sh`.
 ```
