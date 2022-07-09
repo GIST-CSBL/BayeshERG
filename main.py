@@ -47,7 +47,7 @@ def load_data(df, atom_featurizer, bond_featurizer):
     print("---------------- Target loading complete --------------------")
     return test_data
 
-def load_model(model_path):
+def load_model(model_path, device):
     wr = 1e-4 ** 2. / TRAIN_LEN
     dr = 2. / TRAIN_LEN
     reg_acc = RegularizationAccumulator()
@@ -195,7 +195,7 @@ if __name__ == '__main__':
     
     df = pd.read_csv(data_path)
     test_data = load_data(df, atom_featurizer, bond_featurizer)
-    model = load_model("model/model_weights.pth")
+    model = load_model("model/model_weights.pth", device)
 
     res_df, num_atom_list, mean_att = prediction(model, df, test_data, device, samples=sampling)
     res_df.to_csv("prediction_results/"+out_name+".csv", index=False)
