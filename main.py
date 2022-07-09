@@ -34,8 +34,7 @@ def warn(*args, **kwargs):
 
 
 
-def collate(sample):
-    graphs, labels = map(list,zip(*sample))
+def collate(graphs):
     batched_graph = dgl.batch(graphs)
     batched_graph.set_n_initializer(dgl.init.zero_initializer)
     batched_graph.set_e_initializer(dgl.init.zero_initializer)
@@ -74,7 +73,6 @@ def prediction(model, df, test_data, device, samples = 100):
         attention_result = []
         for t in tqdm(range(samples), desc="Sampling"):
 
-            true_res = []
             pred_score = []
             num_atom_list = []
             pred_att = []
@@ -94,8 +92,6 @@ def prediction(model, df, test_data, device, samples = 100):
                 pred_sof = np.array(pred_sof).reshape(-1, 2)
                 pred_score.append(pred_sof)
 
-                true_label = labels.to('cpu').numpy()
-                true_res.append(true_label)
                 num_atom_list += [x + 1 for x in lengths]
                 pred_att.append(w_tensor)
 
