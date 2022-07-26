@@ -23,29 +23,16 @@ Any `.csv` file with `smiles` column.
 | -----|---------|
 
 # Usage
-### Create conda virtual environment
+### Create conda virtual environment and install dependencies
 
 ```
-$ conda create -n BayeshERG -c conda-forge rdkit python=3.6
+$ conda create -n BayeshERG --file=environment.yml
 ```
 ### Activate the virtual environment
 ```
 $ conda activate BayeshERG
 ```
 
-### Install dependencies
-If your system has GPU, make sure your CUDA version is 10.2 or high.
-
-Excute the installation shell script `install.sh`    
-    
-```
-$ sh install.sh
-```
-  
-If your system has no GPU, excute the cpu-version shell script `cpu_install.sh`.
-```
-$ sh cpu_install.sh
-```
 
 ### Prediction
 ```
