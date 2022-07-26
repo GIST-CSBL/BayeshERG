@@ -26,7 +26,7 @@ Any `.csv` file with `smiles` column.
 ### Create conda virtual environment and install dependencies
 Conda environment file 'environment.yml' is provided
 ```
-$ conda create -n BayeshERG --file=environment.yml
+$ conda env create -n BayeshERG --file=environment.yml
 ```
 ### Activate the virtual environment
 ```
@@ -75,4 +75,4 @@ Hojung Nam (Corresponding Author), hjnam@gist.ac.kr
 
 
 ---
-@ Last modified : 2022.02.07
+@ Last modified : 2022.07.27
