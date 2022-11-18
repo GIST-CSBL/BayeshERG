@@ -7,16 +7,15 @@ The BayeshERG is developed with the python v3.6 and following packages:`dgl`, `p
 
 # License
 
-
 BayeshERG follows [GPL 3.0v license](LICENSE). Therefore, BayeshERG is open source and free to use for everyone.
 
 However, compounds which are found by using BayeshERG follows [CC-BY-NC-4.0](CC-BY-NC-SA-4.0). Thus, those compounds are freely available for academic purposes or individual research but restricted for commercial use.
 
-## Contact
+# Contact
 
 hjnam@gist.ac.kr
 
-dlsrnsladlek@gist.ac.kr
+hyunhokim@gm.gist.ac.kr
 
 # Prerequsites
 - Anaconda
