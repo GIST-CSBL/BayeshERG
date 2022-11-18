@@ -11,11 +11,6 @@ BayeshERG follows [GPL 3.0v license](LICENSE). Therefore, BayeshERG is open sour
 
 However, hERG blockers or structual information are found by using BayeshERG [CC-BY-NC-4.0](CC-BY-NC-SA-4.0). Thus, those compounds are freely available for academic purposes or individual research but restricted for commercial use.
 
-# Contact
-
-hjnam@gist.ac.kr
-
-hyunhokim@gm.gist.ac.kr
 
 # Prerequsites
 - Anaconda
