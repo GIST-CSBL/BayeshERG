@@ -7,9 +7,9 @@ The BayeshERG is developed with the python v3.6 and following packages:`dgl`, `p
 
 # License
 
-BayeshERG follows [MIT License](LICENSE). Therefore, BayeshERG is open source and free to use for everyone.
+BayeshERG source code follows [MIT License](LICENSE). Therefore, BayeshERG is open source and free to use for everyone.
 
-However, hERG blockers or structual information found by using BayeshERG follows [CC-BY-NC-4.0](CC-BY-NC-SA-4.0). Thus, those compounds are freely available for academic purposes or individual research but restricted for commercial use.
+However, trained model weights and hERG blockers or structual information found by using our model follows [CC-BY-NC-4.0](CC-BY-NC-SA-4.0). Thus, those compounds are freely available for academic purposes or individual research but restricted for commercial use.
 
 
 # Prerequsites
